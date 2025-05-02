@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.herosection{
+    background-image: url('/src/Images/bg_img.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.hero{
+  background-image: url('/src/Images/bgimg.jpg');
+  background-size:cover;
+  background-position: center;
+}
