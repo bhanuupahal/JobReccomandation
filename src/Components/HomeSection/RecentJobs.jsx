@@ -1,6 +1,6 @@
 import React from "react";
-import { JobAdvtCard } from "../../Components/JobAdvtCard";
-import { CompoHeading } from "../../Components/CompoHeading";
+import { JobAdvtCard } from "../JobAdvtCard";
+import { CompoHeading } from "../CompoHeading";
 import { motion } from "framer-motion";
 import { FaBriefcase, FaArrowRight } from "react-icons/fa";
 

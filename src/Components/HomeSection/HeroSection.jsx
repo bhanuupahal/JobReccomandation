@@ -1,5 +1,5 @@
 import React from "react";
-import { CompoHeading } from "../../Components/CompoHeading";
+import { CompoHeading } from "../CompoHeading";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 export const HeroSection = () => {
   const compoHeading = {

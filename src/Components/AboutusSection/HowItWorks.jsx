@@ -1,5 +1,5 @@
 import React from "react";
-import { CompoHeading } from "../../Components/CompoHeading";
+import { CompoHeading } from "../CompoHeading";
 import megaPhoneImg from "../../Images/megaphone.png";
 import userImg from "../../Images/user.png";
 import pencilImg from "../../Images/pencil.png";

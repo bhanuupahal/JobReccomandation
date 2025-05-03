@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { CompoHeading } from '../../Components/CompoHeading'
+import { CompoHeading } from '../CompoHeading'
 import img from '../../Images/pngwing.com.png'
 import { motion } from 'framer-motion'
 import { FaMapMarkerAlt, FaBriefcase, FaRegClock, FaUserTie, FaSearch, FaFilter, FaArrowRight } from 'react-icons/fa'
@@ -17,7 +17,7 @@ export const NewJobs = () => {
 
     const newJobsData = [
         {
-            logo: img,
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png",
             title: "Software Engineer",
             company: "TechVision Inc.",
             location: "Los Angeles",
@@ -31,7 +31,7 @@ export const NewJobs = () => {
             featured: true
         },
         {
-            logo: img,
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png",
             title: "Senior Software Engineer",
             company: "InnovateTech Solutions",
             location: "New York",
@@ -45,7 +45,7 @@ export const NewJobs = () => {
             featured: false
         },
         {
-            logo: img,
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png",
             title: "Lead Software Engineer",
             company: "FutureSoft Systems",
             location: "Chicago",
@@ -59,7 +59,7 @@ export const NewJobs = () => {
             featured: true
         },
         {
-            logo: img,
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png",
             title: "Data Scientist",
             company: "DataInsight Analytics",
             location: "San Francisco",
@@ -73,7 +73,7 @@ export const NewJobs = () => {
             featured: false
         },
         {
-            logo: img,
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/2560px-Tesla_Motors.svg.png",
             title: "UX/UI Designer",
             company: "CreativeDesign Studio",
             location: "Los Angeles",
@@ -87,7 +87,7 @@ export const NewJobs = () => {
             featured: false
         },
         {
-            logo: img,
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/2560px-Meta_Platforms_Inc._logo.svg.png",
             title: "DevOps Engineer",
             company: "CloudTech Solutions",
             location: "Remote",
@@ -295,4 +295,5 @@ export const NewJobs = () => {
         </div>
     )
 }
+
 

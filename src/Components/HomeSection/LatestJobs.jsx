@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { CompoHeading } from "../../Components/CompoHeading";
-import { LatestJobCard } from "../../Components/LatestJobCard";
+import { CompoHeading } from "../CompoHeading";
+import { LatestJobCard } from "../LatestJobCard";
 import { motion } from "framer-motion";
 import { FaSearch, FaBriefcase, FaArrowRight } from "react-icons/fa";
 

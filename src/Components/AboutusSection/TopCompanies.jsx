@@ -1,5 +1,5 @@
 import React from 'react'
-import { CompoHeading } from '../../Components/CompoHeading'
+import { CompoHeading } from '../CompoHeading'
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 

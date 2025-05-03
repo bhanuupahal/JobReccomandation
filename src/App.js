@@ -1,17 +1,17 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import { Footer } from "./Components/Footer";
-import { AboutUs } from "./Pages/AboutUs";
-import { LandingPage } from "./Pages/LandingPage";
-import { MyDashboard } from "./Pages/Dashboard/MyDashboard";
-import { LogIn } from "./Pages/LogIn";
-import { SignUp } from "./Pages/SignUp";
-import { ResetPassword } from "./Pages/ResetPassword";
-import NavBar from "./Components/NavBar";
-import MyJobs from "./Pages/Dashboard/MyJobs";
-import Setting from "./Pages/Dashboard/Setting";
-import ContactUs from "./Pages/ContactUs";
-import SubmitJob from "./Pages/Submitjob/Submit_job";
-import MyProfile from "./Pages/Dashboard/MyProfile";
+import NavBar from "./Components/NavbarSection/NavBar";
+import { Footer } from "./Components/FooterSection/Footer";
+import { AboutUs } from "./Components/AboutusSection/AboutUs";
+import { LandingPage } from "./Components/HomeSection/LandingPage";
+import { MyDashboard } from "./Components/DashboardSection/MyDashboard";
+import { LogIn } from "./Components/AuthSection/LogIn";
+import { SignUp } from "./Components/AuthSection/SignUp";
+import { ResetPassword } from "./Components/AuthSection/ResetPassword";
+import MyJobs from "./Components/DashboardSection/MyJobs";
+import Setting from "./Components/DashboardSection/Setting";
+import ContactUs from "./Components/ContactusSection/ContactUs"; // Updated path
+import SubmitJob from "./Components/SubmitJobSection/Submit_job";
+import MyProfile from "./Components/DashboardSection/MyProfile";
 
 function App() {
   const location = useLocation();
@@ -48,5 +48,9 @@ function App() {
 }
 
 export default App;
+
+
+
+
 
 

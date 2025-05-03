@@ -1,10 +1,10 @@
 import React from 'react'
-import { CompoHeading } from '../../Components/CompoHeading'
+import { CompoHeading } from '../CompoHeading'
 import { motion } from 'framer-motion'
 import { FaCashRegister, FaCut, FaCar, FaServer, FaHeadset, FaUserNurse, 
          FaTruck, FaLaptopCode, FaChalkboardTeacher, FaHeartbeat, 
          FaChartLine, FaUtensils } from 'react-icons/fa'
-import { JobCategoryCard } from '../../Components/JobCategoryCard'
+import { JobCategoryCard } from '../JobCategoryCard'
 
 export const JobCategory = () => {
     const compoHeading = {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { CompoHeading } from '../../Components/CompoHeading'
+import { CompoHeading } from '../CompoHeading'
 import { Shield, Award, UserCheck, Building, Smile, Clock } from 'lucide-react'
 
 export const WhyChooseUs = () => {

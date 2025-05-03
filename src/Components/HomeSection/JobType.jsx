@@ -1,5 +1,5 @@
 import React from "react";
-import { CompoHeading } from "../../Components/CompoHeading";
+import { CompoHeading } from "../CompoHeading";
 import { motion } from "framer-motion";
 import { ImHome2, ImOffice } from "react-icons/im";
 import { FaCalendarAlt, FaUsers, FaGlobeAmericas, FaLaptop, FaHandshake, FaChartLine } from "react-icons/fa";

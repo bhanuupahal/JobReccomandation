@@ -1,5 +1,5 @@
 import React from 'react'
-import { CompoHeading } from '../../Components/CompoHeading'
+import { CompoHeading } from '../CompoHeading'
 import person1 from '../../Images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg'
 import person2 from '../../Images/jurica-koletic-7YVZYZeITc8-unsplash.jpg'
 import { FaStar } from 'react-icons/fa'

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { CompoHeading } from '../../Components/CompoHeading'
+import { CompoHeading } from '../CompoHeading'
 import img from "../../Images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
 import img1 from "../../Images/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
 import { motion, AnimatePresence } from 'framer-motion'
